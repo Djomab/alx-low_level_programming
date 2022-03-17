@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - check the the uppercase.
+ * _isdigit - check the the uppercase.
  *
  * Return: Always 1 if uppercase and 0 if lower.
  *
