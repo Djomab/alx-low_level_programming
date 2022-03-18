@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * print_line: - prints the numbers, from 0 to 9 except 2 and 4
+ * print_line - prints the numbers, from 0 to 9 except 2 and 4
  *
  * @n: number
  * Return: void
