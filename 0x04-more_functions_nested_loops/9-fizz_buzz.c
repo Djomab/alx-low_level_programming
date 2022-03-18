@@ -1,12 +1,12 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - prints the numbers, from 0 to 9 except 2 and 4
   * Return: void
  *
  */
-void main(void)
+int main(void)
 {
 	int i;
 
