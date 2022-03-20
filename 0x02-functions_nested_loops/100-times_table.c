@@ -15,14 +15,18 @@ void print_times_table(int n)
 		{
 			for (j = 0; j < n + 1; j++)
 			{
-				printf("%d", i * j);
+				k = i * j;
 
-				if (j < n)
+				if (k < 10 && j != 0)
 				{
 					printf(",");
 					printf(" ");
 					printf(" ");
 					printf(" ");
+				}
+				else if (k >=10 && k < 100)
+				{
+					printf("%d", i * j);
 				}
 			}
 			printf("\n");
