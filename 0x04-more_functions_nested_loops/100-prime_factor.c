@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-/*
- * main - finds and prints the largest prime factor of the number 61285247514
- * Return 0.
+/**
+ * main - check the code
  *
- **/
-
+ * Return: Always 0.
+ */
 int main(void)
 {
 	long int n = 612852475143;
@@ -22,6 +21,7 @@ int main(void)
 			if (n == 1)
 			{
 				printf("%d", maxfact);
+				printf("\n");
 				break;
 			}
 		}
