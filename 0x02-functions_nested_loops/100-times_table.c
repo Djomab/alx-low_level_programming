@@ -19,7 +19,9 @@ void print_times_table(int n)
 
 				if (j < n)
 				{
-					printf(",  ");
+					printf(",");
+					printf(" ");
+					printf(" ");
 				}
 			}
 			printf("\n");
