@@ -26,6 +26,9 @@ void print_times_table(int n)
 				}
 				else if (k >=10 && k < 100)
 				{
+					printf(",");
+					printf(" ");
+					printf(" ");
 					printf("%d", i * j);
 				}
 			}
