@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev- updates the value it points to to 98.
+ * rev_string- updates the value it points to to 98.
  * @str : first param
  * Return: lenght of s.
  */
 
-void print_rev(char *str)
+void rev_string(char *str)
 {
 	int i = 0, k = 0, temp;
 
