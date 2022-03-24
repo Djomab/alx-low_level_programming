@@ -27,7 +27,7 @@ char upper(char c)
 
 char *string_toupper(char *str)
 {
-	int i = 0, c;
+	int i = 0;
 
 	while (str[i])
 	{
