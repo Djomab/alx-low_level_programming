@@ -1,34 +1,35 @@
-#include "main.h"
+#include<stdio.h>
 
 /**
- * upper - function
- * @c : char
- * Return: 1 or 0
+ * upper - a function ...
+ * @c: the caractere
+ *
+ * Return: 1 or 0.
  */
 
-char upper(char c)
+char	upper(char c)
 {
-	char car;
+	char	car;
 
 	if (c >= 'a' && c <= 'z')
 		car = c + 'A' - 'a';
 	else
 		car = c;
-
 	return (car);
 }
 
 /**
- * cap_string - function ...
- * @str: string
+ * cap_string - a function ...
+ * @str: the chaine of caractere
  *
- * Return: 1 or 0
+ * Return: str
  */
 
-char *cap_string(char *str)
+char	*cap_string(char *str)
 {
-	int i = 0;
+	int	i;
 
+	i = 0;
 	while (str[i])
 	{
 		str[i] = upper(str[i]);
