@@ -21,12 +21,15 @@ char *_strdup(char *str)
 
 	copy = malloc(sizeof(char) * (len + 1));
 
-	while (str[i] != '\0')
+	if (src != NULL)
 	{
-		copy[i] = str[i];
-		i++;
+		while (str[i] != '\0')
+		{
+			copy[i] = str[i];
+			i++;
+		}
+		copy[i] = '\0';
 	}
-	copy[i] = '\0';
 
 	return (copy);
 
