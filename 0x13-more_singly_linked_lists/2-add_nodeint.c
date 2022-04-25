@@ -14,6 +14,9 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	/* Création du nouvel élément */
 	listint_t *nouveau = malloc(sizeof(listint_t));
 
+	if (head == NULL || nouveau == NULL)
+		return (NULL);
+
 	/* Assigner une valeur au nouvel élément*/
 	nouveau->n = n;
 
