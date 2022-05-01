@@ -1,3 +1,6 @@
+#include "lists.h"
+#include <stdlib.h>
+
 /**
  * pop_listint - a function ...
  * @head: the list
