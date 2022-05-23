@@ -2,16 +2,16 @@
 
 /**
  * main - prints the first n Fibonacci numbers, starting with 1 and 2
- * Return: 0
+ * Return:0
  */
 int main(void)
 {
-	int i; 
+	int i;
 	unsigned long nbr1 = 0, nbr2 = 1, suivant;
 
 	for (i = 0; i < 50; i++)
 	{
-		suivant = nbr1 + nbr2;	
+		suivant = nbr1 + nbr2;
 		printf("%lu", suivant);
 
 		nbr1 = nbr2;
