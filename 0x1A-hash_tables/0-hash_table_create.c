@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <stddef.h>
 #include "hash_tables.h"
 
 /**
